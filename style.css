@@ -23,7 +23,7 @@ div {
 }
 
 div input {
-    width: 100%;
+    width: 80%;
     height: 3em;
     border: none;
     border-radius: 8px;
@@ -47,4 +47,10 @@ div input {
     color: #fff;
     transition: all 150ms;
     transform: translateY(-3px);
+}
+
+@media (max-width:650px) {
+    form {
+        width: 95%;
+    }
 }
